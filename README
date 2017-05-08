@@ -1,0 +1,13 @@
+Deep leaning examples using Tensorflow library:
+1. Linear regression
+2. Logistic regression
+3. Multi layer perceptron
+4. Nearest neighbor
+5. Recurrent neural network
+6. Dynamic recurrent neural network
+7. Bidirectional recurrent neural network
+8. convolutional neural network
+9. Autoencoder
+10. Sparsity Autoencoder
+11. Restrict Boltzmann Machine RBM
+12. Gaussian restrict boltzmann machine GRBM
