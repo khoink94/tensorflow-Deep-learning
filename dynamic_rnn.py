@@ -1,11 +1,6 @@
 
 '''
-A Dynamic Recurrent Neural Network (LSTM) implementation example using
-TensorFlow library. This example is using a toy dataset to classify linear
-sequences. The generated sequences have variable length.
-Long Short Term Memory paper: http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf
-Author: Aymeric Damien
-Project: https://github.com/aymericdamien/TensorFlow-Examples/
+A Dynamic Recurrent Neural Network (LSTM)
 '''
 from __future__ import print_function
 import tensorflow as tf 
