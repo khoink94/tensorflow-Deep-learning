@@ -158,6 +158,13 @@ class RBM(object):
                                     (1.0 - self.input)*(tf.log(reduce_activation_v_clip)), axis=1))
 		return cross_entropy   
 		"""
+
+
+	def reconstruction(self, v):
+		h = self.propup(v)
+		return self.propdown(h)
+
+			
 def test_rbm():
 	''' Demonstrate how to train and afterwards sample from it
 	this is demonstrate on mnist
